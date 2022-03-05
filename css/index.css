@@ -1,0 +1,278 @@
+
+body{
+    color: #444;
+    
+}
+/* home css*/
+.layer{
+background-color: rgba(0, 0, 0, 0.7);
+height: 100%;
+}
+.Dai{
+    font-size: 2rem;
+}
+.Dai:hover{
+    color: royalblue;
+}
+.zy{
+    color: #fb6930 !important;
+    font-size: 2rem;
+}
+header{
+    background-image: url(../images/header/header-banner-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+.t-size{
+    font-size: 1.3rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:#fb6930 ;
+}
+h1{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+}
+.home-btn{
+    background-color: #fb6930;
+    border-color: #fb6930;
+    padding: 1rem;
+    width: 10rem;
+    color: #fff;
+    font-weight: bold;
+}
+/* about css*/
+#about{
+    position: relative;
+}
+#about::after{
+   background-image: url(../images/about-bg/about-arrow.png);
+   background-repeat: no-repeat;
+    content: "";
+    height: 100%;
+    left: 60%; /*اسال وزير عليها انى مش فاهم وجودها ايه لزمته ولما بمسحها الصوره بتتشال وكانت واخده قيمه افتراضيه صفر */
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.about-contant{
+    margin-top: 7rem;
+}
+.about-img1{
+    margin-top:3rem;
+}
+/*expertise section third slid*/
+#skills{
+    background-color: #37364B;
+    color:#fff;
+}
+.line{
+    height: 0.1rem;
+    width: 100%;
+    background-color:#fff;
+}
+.parent1{
+width: 100%;
+height: 0.6rem;
+background-color:#fff;
+border-radius: 5px;   
+}
+.chaild1{
+    width: 90%;
+    height: 0.6rem;
+    background-color:#fb6930;
+    border-radius: 5px;
+}
+.parent2{
+    width: 100%;
+    height: 0.6rem;
+    background-color:#fff;
+    border-radius: 5px;   
+}
+.chaild2{
+    width: 80%;
+    height: 0.6rem;
+    background-color:#fb6930;
+    border-radius: 5px;
+}
+.parent3{
+    width: 100%;
+    height: 0.6rem;
+    background-color:#fff;
+    border-radius: 5px;   
+}
+    .chaild3{
+    width: 70%;
+    height: 0.6rem;
+    background-color:#fb6930;
+    border-radius: 5px;
+}
+.parent4{
+    width: 100%;
+    height: 0.6rem;
+    background-color:#fff;
+    border-radius: 5px;   
+    }
+.chaild4{
+    width: 60%;
+    height: 0.6rem;
+    background-color:#fb6930;
+    border-radius: 5px;
+}
+/*services css*/
+.services-contact{
+    margin: auto;
+    text-align: center;
+}
+.product{
+    text-align: center;
+    border: 2px solid #f1f1f1;
+    line-height: 30px;
+    padding-bottom: 2rem;
+    font-size: 1.3rem;
+    transition: all 1s ease;
+}
+.product:hover{
+    box-shadow:3px 4px 10px #37364B ;
+}
+.product img{
+    margin-top: 1rem;
+    padding: 1.5rem;
+    background-color:#f1f1f1;
+    border-radius: 50%;
+    margin-bottom:1rem ;
+}
+/*Education css*/
+#Education {
+    background-image: url(../images/education/education-bg.jpg);
+    background-size: cover;
+    overflow: auto;
+    position: center center;
+}
+.number h4{
+    font-size: 3rem;
+    font-weight: bold;
+}
+/*work css*/
+           
+.parent-slid{
+    position: relative;
+}
+.chaild-slid{
+    position: absolute;
+    left: 1%;
+    top: 40%;
+
+}
+.carousel-caption{
+    text-align: left;
+}
+.btn-outline-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fb6930;
+    border: 1px solid #fb6930;
+    box-shadow: inset 0 0 0 0 #fb6930;
+    transition: all 1s;  ;
+}
+.btn-outline-primary:hover{
+    box-shadow: inset 0 0 20px 20px #fb6930;
+}
+
+.size{
+    width: 20px;
+    height: 50px;
+    margin: 2rem;
+    position: absolute;
+    top: 50%;
+}
+
+    
+/*blog css*/
+.blog-head{
+    margin: auto;
+    text-align: center;
+    margin-top:2rem ;
+}
+.image{
+    overflow: hidden;
+}
+.image img{
+    transition: all 1s;
+}
+.card:hover .image img{
+    transform: scale(2) rotate(30deg);
+} 
+.card-body{
+    box-shadow: inset 0 0 0 0 #fb6930;
+    transition: all 1s;
+}
+.card:hover .card-body{
+    box-shadow: inset  0 -300px  0 0 #fb6930;
+}
+.card-body  a{
+    text-decoration: none;
+    color: #141313;
+    font-size: 1rem;
+}
+/* Contact css*/
+#Contact{
+    background-image: url(../images/contact/contact-bg.jpg);
+    color: #fff;
+    overflow: auto;
+}
+.Contact-head{
+    margin: auto;
+    text-align: center;
+    margin-top: 5rem;
+}
+.form-control{
+    font-size: 1.5rem;
+}
+#Contact .btn{
+    background-color: transparent;
+    border:1px solid #fff;
+    color: #fff;
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+    box-shadow: inset 0 0 0 0 #fb6930;
+    transition: all 1s;
+}
+#Contact .btn:hover{
+    box-shadow: inset 0 0 14px 25px  #fb6930;
+}
+#Contact ul{
+    padding: 0;
+    margin-bottom: 3rem;
+    
+}
+#Contact li{
+    text-decoration: none;
+    list-style: none;
+    }
+    /*end css*/
+    footer{
+        background-color: black;
+        color: #fff;
+        padding-bottom:4rem;
+    }
+    footer a{
+        text-decoration: none;
+    }
+    footer a i{
+        color: #fff;
+        padding:0.8rem;
+        font-size: 1.3rem;
+        transition: all ;
+    }
+    footer a i:hover{
+        color:#fb6930;
+    }
+    footer p{
+        font-size: 1.2rem;
+    }
+    footer span{
+        color: #fb6930;
+    }

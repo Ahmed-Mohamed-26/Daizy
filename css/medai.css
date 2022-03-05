@@ -1,0 +1,22 @@
+
+@media (max-width: 575px) {
+    h1 {
+        font-size: 2rem ;
+        font-weight: bold;
+        color: #fff ;
+    }
+    #about::after{
+        background:  none !important;
+        content: "" !important;
+        position: static;
+    }
+
+    
+    }
+    /* .btncolor {
+        border-color: Red;
+        border: 5px solid Red;
+      } */
+
+
+      
